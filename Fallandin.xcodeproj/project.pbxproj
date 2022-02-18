@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6924602AF55ACCB9B1BEBCA2 /* Pods_Fallandin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB32E484329B79BAA1434C69 /* Pods_Fallandin.framework */; };
 		AD244A2827BF3C5500DD84CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A2727BF3C5500DD84CC /* AppDelegate.swift */; };
 		AD244A2A27BF3C5500DD84CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A2927BF3C5500DD84CC /* SceneDelegate.swift */; };
 		AD244A2C27BF3C5500DD84CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A2B27BF3C5500DD84CC /* ViewController.swift */; };
 		AD244A2F27BF3C5500DD84CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD244A2D27BF3C5500DD84CC /* Main.storyboard */; };
 		AD244A3127BF3C5800DD84CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD244A3027BF3C5800DD84CC /* Assets.xcassets */; };
 		AD244A3427BF3C5800DD84CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD244A3227BF3C5800DD84CC /* LaunchScreen.storyboard */; };
+		AD244A4227BF3C6E00DD84CC /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A3C27BF3C6E00DD84CC /* ImageExtensions.swift */; };
+		AD244A4327BF3C6E00DD84CC /* DesignClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A3D27BF3C6E00DD84CC /* DesignClass.swift */; };
+		AD244A4427BF3C6E00DD84CC /* TextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A3E27BF3C6E00DD84CC /* TextFieldExtensions.swift */; };
+		AD244A4527BF3C6E00DD84CC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A3F27BF3C6E00DD84CC /* Colors.swift */; };
+		AD244A4627BF3C6E00DD84CC /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A4027BF3C6E00DD84CC /* MyController.swift */; };
+		AD244A4727BF3C6E00DD84CC /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A4127BF3C6E00DD84CC /* GlobalVariables.swift */; };
+		AD244A4927BF559B00DD84CC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A4827BF559B00DD84CC /* FirstViewController.swift */; };
+		AD244A4B27BF5C9200DD84CC /* 3914565.svg in Resources */ = {isa = PBXBuildFile; fileRef = AD244A4A27BF5C9200DD84CC /* 3914565.svg */; };
+		AD244A4D27BF5F9A00DD84CC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A4C27BF5F9A00DD84CC /* SecondViewController.swift */; };
+		AD244A4F27BF87B500DD84CC /* FortuneTellerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A4E27BF87B500DD84CC /* FortuneTellerDetailViewController.swift */; };
+		AD244A5127BF87FE00DD84CC /* FortuneTellerCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A5027BF87FE00DD84CC /* FortuneTellerCommentsViewController.swift */; };
+		AD244A5327BF8B5100DD84CC /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A5227BF8B5100DD84CC /* SecondTableViewCell.swift */; };
+		AD244A5527BF92E100DD84CC /* FortuneTellerCommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244A5427BF92E100DD84CC /* FortuneTellerCommentsTableViewCell.swift */; };
+		AD434EA127BFC708006C9387 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD434EA027BFC708006C9387 /* ProfileViewController.swift */; };
+		ADE55D8327BF9FDA00C55EBE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE55D8227BF9FDA00C55EBE /* SettingsViewController.swift */; };
+		ADE55D8527BFA3C500C55EBE /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE55D8427BFA3C500C55EBE /* SettingsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		098E470B4D148A3BD949F291 /* Pods-Fallandin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fallandin.release.xcconfig"; path = "Target Support Files/Pods-Fallandin/Pods-Fallandin.release.xcconfig"; sourceTree = "<group>"; };
 		AD244A2427BF3C5500DD84CC /* Fallandin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fallandin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD244A2727BF3C5500DD84CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD244A2927BF3C5500DD84CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,24 @@
 		AD244A3027BF3C5800DD84CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD244A3327BF3C5800DD84CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD244A3527BF3C5800DD84CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD244A3C27BF3C6E00DD84CC /* ImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+		AD244A3D27BF3C6E00DD84CC /* DesignClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignClass.swift; sourceTree = "<group>"; };
+		AD244A3E27BF3C6E00DD84CC /* TextFieldExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtensions.swift; sourceTree = "<group>"; };
+		AD244A3F27BF3C6E00DD84CC /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AD244A4027BF3C6E00DD84CC /* MyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
+		AD244A4127BF3C6E00DD84CC /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		AD244A4827BF559B00DD84CC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		AD244A4A27BF5C9200DD84CC /* 3914565.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3914565.svg; sourceTree = "<group>"; };
+		AD244A4C27BF5F9A00DD84CC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AD244A4E27BF87B500DD84CC /* FortuneTellerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneTellerDetailViewController.swift; sourceTree = "<group>"; };
+		AD244A5027BF87FE00DD84CC /* FortuneTellerCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneTellerCommentsViewController.swift; sourceTree = "<group>"; };
+		AD244A5227BF8B5100DD84CC /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		AD244A5427BF92E100DD84CC /* FortuneTellerCommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneTellerCommentsTableViewCell.swift; sourceTree = "<group>"; };
+		AD434EA027BFC708006C9387 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ADE55D8227BF9FDA00C55EBE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ADE55D8427BFA3C500C55EBE /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		CB32E484329B79BAA1434C69 /* Pods_Fallandin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fallandin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF005327435BBE6E4BD5929E /* Pods-Fallandin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fallandin.debug.xcconfig"; path = "Target Support Files/Pods-Fallandin/Pods-Fallandin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6924602AF55ACCB9B1BEBCA2 /* Pods_Fallandin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73E241B74F5EC58352E88B17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF005327435BBE6E4BD5929E /* Pods-Fallandin.debug.xcconfig */,
+				098E470B4D148A3BD949F291 /* Pods-Fallandin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A75DC2B7A6B4E03CC95FC8E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB32E484329B79BAA1434C69 /* Pods_Fallandin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD244A1B27BF3C5400DD84CC = {
 			isa = PBXGroup;
 			children = (
 				AD244A2627BF3C5500DD84CC /* Fallandin */,
 				AD244A2527BF3C5500DD84CC /* Products */,
+				73E241B74F5EC58352E88B17 /* Pods */,
+				A75DC2B7A6B4E03CC95FC8E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +112,39 @@
 		AD244A2627BF3C5500DD84CC /* Fallandin */ = {
 			isa = PBXGroup;
 			children = (
+				AD244A3B27BF3C6E00DD84CC /* Library - Fal */,
 				AD244A2727BF3C5500DD84CC /* AppDelegate.swift */,
 				AD244A2927BF3C5500DD84CC /* SceneDelegate.swift */,
 				AD244A2B27BF3C5500DD84CC /* ViewController.swift */,
+				AD244A4827BF559B00DD84CC /* FirstViewController.swift */,
+				AD244A4C27BF5F9A00DD84CC /* SecondViewController.swift */,
+				AD244A5227BF8B5100DD84CC /* SecondTableViewCell.swift */,
+				AD244A4E27BF87B500DD84CC /* FortuneTellerDetailViewController.swift */,
+				AD244A5027BF87FE00DD84CC /* FortuneTellerCommentsViewController.swift */,
+				AD244A5427BF92E100DD84CC /* FortuneTellerCommentsTableViewCell.swift */,
+				ADE55D8227BF9FDA00C55EBE /* SettingsViewController.swift */,
+				ADE55D8427BFA3C500C55EBE /* SettingsTableViewCell.swift */,
+				AD434EA027BFC708006C9387 /* ProfileViewController.swift */,
 				AD244A2D27BF3C5500DD84CC /* Main.storyboard */,
 				AD244A3027BF3C5800DD84CC /* Assets.xcassets */,
+				AD244A4A27BF5C9200DD84CC /* 3914565.svg */,
 				AD244A3227BF3C5800DD84CC /* LaunchScreen.storyboard */,
 				AD244A3527BF3C5800DD84CC /* Info.plist */,
 			);
 			path = Fallandin;
+			sourceTree = "<group>";
+		};
+		AD244A3B27BF3C6E00DD84CC /* Library - Fal */ = {
+			isa = PBXGroup;
+			children = (
+				AD244A3C27BF3C6E00DD84CC /* ImageExtensions.swift */,
+				AD244A3D27BF3C6E00DD84CC /* DesignClass.swift */,
+				AD244A3E27BF3C6E00DD84CC /* TextFieldExtensions.swift */,
+				AD244A3F27BF3C6E00DD84CC /* Colors.swift */,
+				AD244A4027BF3C6E00DD84CC /* MyController.swift */,
+				AD244A4127BF3C6E00DD84CC /* GlobalVariables.swift */,
+			);
+			path = "Library - Fal";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD244A3827BF3C5800DD84CC /* Build configuration list for PBXNativeTarget "Fallandin" */;
 			buildPhases = (
+				B3548BD08BFB1A5F95330277 /* [CP] Check Pods Manifest.lock */,
 				AD244A2027BF3C5400DD84CC /* Sources */,
 				AD244A2127BF3C5400DD84CC /* Frameworks */,
 				AD244A2227BF3C5400DD84CC /* Resources */,
+				3D83EC83B971215B5417C8E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +209,78 @@
 			files = (
 				AD244A3427BF3C5800DD84CC /* LaunchScreen.storyboard in Resources */,
 				AD244A3127BF3C5800DD84CC /* Assets.xcassets in Resources */,
+				AD244A4B27BF5C9200DD84CC /* 3914565.svg in Resources */,
 				AD244A2F27BF3C5500DD84CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D83EC83B971215B5417C8E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fallandin/Pods-Fallandin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fallandin/Pods-Fallandin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fallandin/Pods-Fallandin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3548BD08BFB1A5F95330277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fallandin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD244A2027BF3C5400DD84CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD244A4D27BF5F9A00DD84CC /* SecondViewController.swift in Sources */,
+				AD244A4327BF3C6E00DD84CC /* DesignClass.swift in Sources */,
+				AD244A4427BF3C6E00DD84CC /* TextFieldExtensions.swift in Sources */,
 				AD244A2C27BF3C5500DD84CC /* ViewController.swift in Sources */,
+				AD244A4727BF3C6E00DD84CC /* GlobalVariables.swift in Sources */,
+				AD244A5327BF8B5100DD84CC /* SecondTableViewCell.swift in Sources */,
+				AD434EA127BFC708006C9387 /* ProfileViewController.swift in Sources */,
+				AD244A5527BF92E100DD84CC /* FortuneTellerCommentsTableViewCell.swift in Sources */,
+				ADE55D8327BF9FDA00C55EBE /* SettingsViewController.swift in Sources */,
+				AD244A4527BF3C6E00DD84CC /* Colors.swift in Sources */,
+				AD244A4927BF559B00DD84CC /* FirstViewController.swift in Sources */,
+				AD244A4F27BF87B500DD84CC /* FortuneTellerDetailViewController.swift in Sources */,
+				ADE55D8527BFA3C500C55EBE /* SettingsTableViewCell.swift in Sources */,
 				AD244A2827BF3C5500DD84CC /* AppDelegate.swift in Sources */,
 				AD244A2A27BF3C5500DD84CC /* SceneDelegate.swift in Sources */,
+				AD244A4227BF3C6E00DD84CC /* ImageExtensions.swift in Sources */,
+				AD244A4627BF3C6E00DD84CC /* MyController.swift in Sources */,
+				AD244A5127BF87FE00DD84CC /* FortuneTellerCommentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +424,7 @@
 		};
 		AD244A3927BF3C5800DD84CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF005327435BBE6E4BD5929E /* Pods-Fallandin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +453,7 @@
 		};
 		AD244A3A27BF3C5800DD84CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098E470B4D148A3BD949F291 /* Pods-Fallandin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

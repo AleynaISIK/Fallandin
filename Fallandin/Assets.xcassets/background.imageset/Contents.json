@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "hand-painted-watercolor-pastel-sky-background_23-2148902771.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "hand-painted-watercolor-pastel-sky-background_23-2148902771@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "hand-painted-watercolor-pastel-sky-background_23-2148902771@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
