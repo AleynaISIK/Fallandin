@@ -107,7 +107,7 @@ extension FirstViewController{
                 
                 falcilar = JSON(value)
                 print(falcilar)
-                showVC(identifierName: "SecondViewController")
+                showVC(identifierName: "Second2ViewController")
                 
             case .failure(let error):
                 Swift.print(error)
