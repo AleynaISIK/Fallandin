@@ -76,9 +76,6 @@ extension SecondViewController: UITableViewDelegate, UITableViewDataSource{
         cell.coffee_fortune_telling_view_outlet.layer.cornerRadius = 12
         cell.coffee_fortune_telling_view_outlet.backgroundColor = UIColor.white
       
-        
-        
-        
         Url_To_Image(url: imageBaseURL + falcilar["data"][indexPath.item]["falci_img"].stringValue , imageView: cell.profile_picture_Imageview_outlet)
         
         cell.profile_picture_Imageview_outlet.makeRounded()

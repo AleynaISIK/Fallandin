@@ -129,6 +129,7 @@ extension SettingsViewController{
         }
     }
 }
+
 extension SettingsViewController{
     func username_post_request_json(id: String){
          
@@ -156,6 +157,5 @@ extension SettingsViewController{
              }
          }
      }
-
 
 }
